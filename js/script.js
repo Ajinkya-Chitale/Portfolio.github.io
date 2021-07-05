@@ -106,6 +106,7 @@ function filterItems(filterBtn) {
   const categoryList = document.querySelectorAll(".portfolio-item");
   categoryList.forEach((elem) => {
     const category = elem.getAttribute("data-category").split(",");
+    // console.log(category);
     if (category.indexOf(selectCategory) !== -1 || selectCategory === "all") {
       elem.classList.add("show");
     } else {
