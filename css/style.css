@@ -811,6 +811,14 @@ button {
     margin: 0 0 30px;
 }
 
+.pp-body .description p {
+    margin-bottom: 10px;
+}
+
+.pp-body .description ul {
+    margin-left: 30px;
+}
+
 .pp-body .general-info p {
     margin-bottom: 10px;
     font-weight: 600;
